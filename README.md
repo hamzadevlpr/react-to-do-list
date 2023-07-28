@@ -76,10 +76,10 @@ npm run dev
 
 ## API Endpoints
 
-- `GET /api/data`: Fetch all data entries from the database.
-- `POST /api/data`: Create a new data entry and save it to the database.
-- `GET /api/data/:id`: Fetch a specific data entry by its ID from the database.
-- `PUT /api/data/:id`: Update an existing data entry in the database.
+- `GET /`: Fetch all data entries from the database.
+- `POST /create`: Create a new data entry and save it to the database.
+- `GET /getUser/:id`: Fetch a specific data entry by its ID from the database.
+- `PUT /update/:id`: Update an existing data entry in the database.
 - `DELETE /api/data/:id`: Delete a data entry from the database.
 
 ## Countries API Integration
@@ -88,9 +88,9 @@ The app also integrates with a countries API to populate a dropdown select menu 
 
 Here is the endpoint used to fetch the countries data:
 
-- `GET https://api.example.com/countries`: Fetches a list of countries with their names and other relevant information.
+- `GET https://restcountries.com/v3.1/all`: Fetches a list of countries with their names and other relevant information.
 
-Please note that you need to replace `https://api.example.com/countries` with the actual URL of the countries API you are using.
+Please note that you need to replace `https://restcountries.com/v3.1/all` with the actual URL of the countries API you are using.
 
 ## Contributing
 

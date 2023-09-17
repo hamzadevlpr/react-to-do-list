@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buid": "npm run build"
+    "buid": "npm run build",
+    "start": "npdemon index.js"
   },
   "author": "Hamza MAlik",
   "license": "MIT",

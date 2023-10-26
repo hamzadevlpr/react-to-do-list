@@ -20,7 +20,7 @@ function MainPage() {
     }
     useEffect((id) => {
         setLoading(true);
-        const url = 'http://localhost:5000/';
+        const url = 'http://localhost:4050/';
         axios.get(url)
             .then((res) => {
                 setEmployee(res.data);

@@ -20,7 +20,7 @@ function UpdateUser({ title }) {
 
     useEffect(() => {
         setLoading(true);
-        const url = 'http://localhost:5000/getUser/' + id;
+        const url = 'http://localhost:4050/getUser/' + id;
         axios.get(url)
             .then((res) => {
                 setFirst(res.data.first)

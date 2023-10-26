@@ -16,7 +16,7 @@ function CreateUser({ title }) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const url = 'http://localhost:5000/create';
+        const url = 'http://localhost:4050/create';
         axios.post(url, { first, last, email, age, country })
             .then(result => console.log('Sent to Server'))
             .catch(err => console.log('Server Error', err))

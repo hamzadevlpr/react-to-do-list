@@ -1,6 +1,6 @@
 # React CRUD App using Vite and MERN Stack
 
-![React Vite Logo]([https://example.com/react-vite-logo.png](https://vitejs.dev/logo-with-shadow.png))
+
 
 ## Table of Contents
 

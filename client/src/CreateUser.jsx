@@ -4,7 +4,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import CountryDropdown from './CountryDropdown';
 
 function CreateUser({ title }) {
-    document.body.style.background = 'linear-gradient(to right, #8B5CF6, #D946EF)';
     const [first, setFirst] = useState();
     const [last, setLast] = useState();
     const [email, setEmail] = useState();

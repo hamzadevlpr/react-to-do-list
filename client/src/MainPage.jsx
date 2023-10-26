@@ -6,9 +6,9 @@ import { ClipLoader } from 'react-spinners';
 
 function MainPage() {
     const [employee, setEmployee] = useState([]);
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] =  useState(false);
     const handleDelete = (id) => {
-        const url = 'http://localhost:5000/delete/' + id;
+        const url = 'http://localhost:4050/delete/' + id;
         axios.delete(url)
             .then((res) => {
                 console.log("Data Deleted Successfully")
